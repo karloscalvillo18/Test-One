@@ -4,9 +4,9 @@
 # Last Edited: Thorin Schmidt
 # Date Edited: 9/26/2014
 
-impart random
+import random
 
-# generate random numbers 1 - 6
+number = int(input("Guess number here: "))
 die1 = random.randint(1, 6) 
 die2 = random.randrange(6)
 
